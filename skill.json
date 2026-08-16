@@ -1,0 +1,35 @@
+{
+  "name": "genpark-viral-social-ad-variant-generator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Viral social ad variant generator, hook resonance predictor & platform layout adapter.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "social-ads",
+    "viral-copy",
+    "hook-generator",
+    "ad-variants",
+    "ph-august-leaderboard"
+  ],
+  "inputs": {
+    "product_usp": {
+      "type": "string"
+    },
+    "target_channel": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "winning_hook_copy": {
+      "type": "string"
+    },
+    "predicted_ctr_boost_pct": {
+      "type": "number"
+    },
+    "channel_variants_count": {
+      "type": "integer"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
